@@ -19,7 +19,6 @@ import {
 
 import Navbar from './components/ui/Navbar.tsx';
 
-import Footer from './components/ui/footer.tsx';
 // import Comp from './components/ui/component.tsx';
 
 function App() {
@@ -36,7 +35,7 @@ function App() {
 
 
     {/* <Navbar/> */}
-    <div>
+    <div id >
     <img src="src\assets\Frame 51.svg" alt="" />
     </div>
     <div>

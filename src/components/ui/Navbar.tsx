@@ -29,19 +29,25 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-gray-900 p-2 m-0 self-stretch">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white font-bold text-lg">My Website</div>
+        <div className="text-white font-bold text-lg">CLAIR</div>
         <ul className="flex space-x-4">
           <li>
             <a href="#" className="text-white hover:text-gray-300">Home</a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300">About</a>
+            <a href="#" className="text-white hover:text-gray-300">Features</a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300">Services</a>
+            <a href="#" className="text-white hover:text-gray-300">About Us</a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300">Contact</a>
+            <a href="#" className="text-white hover:text-gray-300">Achievements</a>
+          </li>
+          <li>
+            <a href="#" className="text-white hover:text-gray-300">FAQs</a>
+          </li>
+          <li>
+            <a href="#" className="text-white hover:text-gray-300">Contact Us</a>
           </li>
         </ul>
       </div>
