@@ -29,19 +29,25 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-gray-900 p-2 m-0 self-stretch">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white font-bold text-lg">My Website</div>
+      <div className="flex text-white font-bold text-lg"><img src="src\assets\Group 1 (2).svg" className="h-8 w-8 mr-2" alt="" /><p>CLAIR</p></div>
         <ul className="flex space-x-4">
           <li>
-            <a href="#" className="text-white hover:text-gray-300">Home</a>
+            <a href="#home" className="text-white hover:text-gray-300">Home</a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300">About</a>
+            <a href="#features" className="text-white hover:text-gray-300">Features</a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300">Services</a>
+            <a href="#about" className="text-white hover:text-gray-300">About</a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300">Contact</a>
+            <a href="#achive" className="text-white hover:text-gray-300">Achievements</a>
+          </li>
+          <li>
+            <a href="#faq" className="text-white hover:text-gray-300">FAQs</a>
+          </li>
+          <li>
+            <a href="#footer" className="text-white hover:text-gray-300">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -50,4 +56,3 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
-
